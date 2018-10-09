@@ -20,8 +20,10 @@ public class skepp : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        positionX = Random.Range(10.41f, -10.41f);
-        transform.position = new Vector3(0, 0, 0);
+        speed = Random.Range(10, 25);
+        positionX = Random.Range(-10.41f, 10.41f);
+        positionY = Random.Range(-5.5f, 5.5f);
+        transform.position = new Vector3(positionX, positionY, 0);
         
 
     }
