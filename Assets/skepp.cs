@@ -20,6 +20,7 @@ public class skepp : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        //detta gör så att speeden samt platsen skeppet spawnar randomisar
         speed = Random.Range(10, 25);
         positionX = Random.Range(-10.41f, 10.41f);
         positionY = Random.Range(-5.5f, 5.5f);
